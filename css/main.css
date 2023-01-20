@@ -15,12 +15,8 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  width: 100%;
-  height: 100%;
 }
-p {
-  color: blue;
-}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -92,7 +88,8 @@ Author's custom styles
 ========================================================================== */
 
 /* header and footer styles*/
-.header, 
+
+header, 
 footer {
   display: flex;
   align-items: center;
@@ -100,30 +97,188 @@ footer {
   flex-flow: row wrap;
 }
 
-.content-wrapper {
+header .content-wrapper {
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  flex-flow:row nowrap;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: space-around;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer address p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer h4 {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+/*--------------------Mobile------------------------------*/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*aside*/
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+/*features*/
+
+.features {
+  display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*----------------------------
+ABOUT PAGE---------------------*/
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*----------------------------
+FAQ PAGE---------------------*/
+.faq {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.question-answer p {
+  display: flex;
+  justify-content: center;
+}
+
+/*------------------------------------------------------------------
+WIDTHS
+------------------------------------------------------------*/
+.header-divider {
+  width: 100%;
   outline: auto;
 }
 
 .nav-list {
-  display: flex;
-  gap: 2em;
-  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
+.content-wrapper {
+  width: 100%;
+}
+
+footer .content-wrapper {
+  width: 60%;
+  margin: 55px 0;
+}
+
+.social-media {
+  width: 30px;
+  height: 30px;
+  background-color: darkgreen;
+  border-radius: 50%;
+}
+/*---------------------------------------------------------------
+Backgrounds and text
+---------------------------------------------------------------*/
+header {
+  background-color: black;
+}
 a {
   text-decoration: none;
+  color: white;
 }
 
-/*Backgrounds*/
+.nav-list li {
+  text-transform: uppercase;
+}
+
 .hero-area {
   background-image: url("../../unplugged-design-docs/unplugged-retreat.jpg");
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 450px;
+  color: white;
+  padding-left: 20px;
+}
+
+.footer-content {
+  background-color: black;
+  color: white;
 }
 
 /* ==========================================================================
