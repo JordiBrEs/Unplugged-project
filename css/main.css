@@ -15,6 +15,8 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  width: 100%;
+  height: 100%;
 }
 p {
   color: blue;
@@ -86,8 +88,61 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+Author's custom styles
+========================================================================== */
+
+/* header and footer styles*/
+.header, 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  outline: auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Backgrounds*/
+.hero-area {
+  background-image: url("../../unplugged-design-docs/unplugged-retreat.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+/* ==========================================================================
+Tablet CSS styles
+========================================================================== */
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* ==========================================================================
+  Destktop CSS Styles
+========================================================================== */
+
+@media only screen and (min-width: 1200px) {
+
+}
+
 
 /* ==========================================================================
    Helper classes
