@@ -113,7 +113,6 @@ header .content-wrapper {
 
 .nav-list ul {
   display: flex;
-  justify-content: space-around;
 }
 .contact {
   display: flex;
@@ -122,11 +121,8 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
-footer address p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+footer {
+  flex: row nowrap;
 }
 
 footer h4 {
@@ -136,16 +132,19 @@ footer h4 {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  gap: 2.5em;
 }
 
 footer .social-icons p {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-flow: row nowrap;
+  align-items: center;
+}
+footer .copyright {
+  margin: 20px 0;
 }
 
 /*--------------------Mobile------------------------------*/
@@ -153,7 +152,7 @@ footer .social-icons p {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 /*aside*/
@@ -179,12 +178,17 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+/*reviews */
 
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
 /*----------------------------
 ABOUT PAGE---------------------*/
 
@@ -192,15 +196,25 @@ ABOUT PAGE---------------------*/
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
-.contact {
+.contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+/*-------------
+ background
+ ----------------------------------*/
+.mission, .contact-section {
+  background: #527158;
 }
 
 /*----------------------------
 FAQ PAGE---------------------*/
+
 .faq {
   display:flex;
   justify-content: center;
@@ -208,12 +222,25 @@ FAQ PAGE---------------------*/
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+/*background 
+*/
+.faq {
+  background: #527158;
+}
+.faq h2 {
+  margin-bottom: 40px;
+}
+.faq-content {
+  margin-bottom: 50px;
+}
 
+/*------------------------------------------------------------------
 .faq h2 {
   display: flex;
   justify-content: center;
@@ -224,62 +251,115 @@ FAQ PAGE---------------------*/
   justify-content: center;
 }
 
-/*------------------------------------------------------------------
-WIDTHS
+WIDTHS and padding
 ------------------------------------------------------------*/
+/*header and footer*/
+.content-wrapper {
+  width: 90%;
+}
 .header-divider {
   width: 100%;
-  outline: auto;
+  border-top: 1px solid #dee0e9;
+}
+header figure {
+  padding: 15px 0 10px 0;
 }
 
 .nav-list {
   margin: 0;
-  padding: 0;
+  padding: 20px 0 15px 0;
 }
-
-.content-wrapper {
-  width: 100%;
-}
-
 footer .content-wrapper {
-  width: 60%;
-  margin: 55px 0;
+  width: 55%;
+  padding: 55px 0;
 }
 
 .social-media {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-color: darkgreen;
   border-radius: 50%;
 }
+
+/* main */
+.hero-area {
+  width: 90%;
+  padding: 50px 0 50px 0;
+}
+/* Aside */
+aside {
+  padding: 30px 20px 50px 5px;
+}
+.form-description p {
+  padding: 10px 0 30px 0;
+}
+input {
+  width: 90%;
+}
+
+/*features*/
+.features {
+  padding: 50px 5px 50px 0;
+}
+.features h2 {
+  padding-left: 0;
+}
+.features-item-description {
+  width: 70%;
+  margin-left: 50px;
+  text-align: center;
+}
+/*reviews*/
+.reviews {
+  padding: 20px 10px 20px 0;
+}
+.reviews h3 {
+  width: 50%;
+}
+
 /*---------------------------------------------------------------
 Backgrounds and text
 ---------------------------------------------------------------*/
+body {
+  color: #dee0e9;
+}
 header {
-  background-color: black;
+  background-color: #202322;
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #dee0e9;
 }
 
 .nav-list li {
   text-transform: uppercase;
 }
+.footer-content {
+  background-color: #202322;
+}
+/*hero-area */
 
 .hero-area {
   background-image: url("../../unplugged-design-docs/unplugged-retreat.jpg");
   background-size: cover;
   background-position: center;
   height: 450px;
-  color: white;
   padding-left: 20px;
 }
-
-.footer-content {
-  background-color: black;
-  color: white;
+/*aside */
+aside {
+  background-color: #527158;
 }
+/*features*/
+.features {
+  background-image: url("../../unplugged-design-docs/unplugged-retreat-features.jpg");
+  background-position: center;
+}
+/*reviews*/
+.reviews {
+  background-color: #527158;
+}
+
 
 /* ==========================================================================
 Tablet CSS styles
