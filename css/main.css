@@ -114,7 +114,6 @@ header .content-wrapper {
 
 .nav-list ul {
   display: flex;
-  justify-content: space-around;
 }
 ul a {
   justify-content: space-around;
@@ -127,8 +126,12 @@ ul a {
 }
 
 footer {
+<<<<<<< HEAD
   justify-content: center;
   flex-direction: row;
+=======
+  flex: row nowrap;
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 
 footer h4 {
@@ -192,6 +195,7 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+/*reviews */
 
 .features h2 {
   padding-left: 0;
@@ -226,6 +230,7 @@ ABOUT PAGE---------------------*/
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+<<<<<<< HEAD
 
 }
 
@@ -235,6 +240,10 @@ ABOUT PAGE---------------------*/
   padding: 10px 0 10px 0;
 }
 .container {
+=======
+}
+.contact-section {
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,7 +253,11 @@ ABOUT PAGE---------------------*/
 /*-------------
  background
  ----------------------------------*/
+<<<<<<< HEAD
 .mission, .container {
+=======
+.mission, .contact-section {
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   background: #527158;
 }
 
@@ -293,18 +306,30 @@ WIDTHS and padding
 .content-wrapper {
   width: 90%;
 }
+<<<<<<< HEAD
 header .content-wrapper {
   flex-flow: column;
 }
 .header-divider {
   border-top: 1px solid #dee0e9;
+=======
+.header-divider {
+  width: 100%;
+  border-top: 1px solid #dee0e9;
+}
+header figure {
+  padding: 15px 0 10px 0;
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 
 .nav-list {
   flex-basis: 60%;
   margin: 0;
   padding: 20px 0 15px 0;
+<<<<<<< HEAD
   gap: 2em;
+=======
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 footer .content-wrapper {
   width: 55%;
@@ -317,12 +342,19 @@ footer .content-wrapper {
   background-color: darkgreen;
   border-radius: 50%;
 }
+<<<<<<< HEAD
 .copyright {
   width: 100%;
   text-align: center;
 }
 /* main */
 .hero-area {
+=======
+
+/* main */
+.hero-area {
+  width: 90%;
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   padding: 50px 0 50px 0;
 }
 /* Aside */
@@ -336,6 +368,21 @@ input {
   width: 90%;
 }
 
+<<<<<<< HEAD
+=======
+/*features*/
+.features {
+  padding: 50px 5px 50px 0;
+}
+.features h2 {
+  padding-left: 0;
+}
+.features-item-description {
+  width: 70%;
+  margin-left: 50px;
+  text-align: center;
+}
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 /*reviews*/
 .reviews {
   padding: 20px 10px 20px 0;
@@ -356,15 +403,22 @@ header {
 a {
   text-decoration: none;
   color: #dee0e9;
+<<<<<<< HEAD
 }
 a:hover{
   color: yellow;
+=======
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 
 .nav-list li {
   text-transform: uppercase;
 }
+<<<<<<< HEAD
 footer {
+=======
+.footer-content {
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   background-color: #202322;
 }
 /*hero-area */
@@ -379,11 +433,33 @@ footer {
 /*aside */
 aside {
   background-color: #527158;
+<<<<<<< HEAD
 }
 /*features*/
 .features {
   background-image: url("../../unplugged-design-docs/unplugged-retreat-features.jpg");
   background-position: center;
+=======
+}
+/*features*/
+.features {
+  background-image: url("../../unplugged-design-docs/unplugged-retreat-features.jpg");
+  background-position: center;
+}
+/*reviews*/
+.reviews {
+  background-color: #527158;
+}
+
+
+/* ==========================================================================
+Tablet CSS styles
+========================================================================== */
+
+
+@media only screen and (min-width: 768px) {
+
+>>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 /*reviews*/
 .reviews {
