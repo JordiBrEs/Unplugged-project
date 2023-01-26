@@ -644,6 +644,9 @@ address {
   height: 600px;
 }
  /* Aside */
+ aside {
+  padding: 30px 20px 10px 5px;
+ }
  aside .content-wrapper {
   margin: 50px 0;
   display: flex;
@@ -889,6 +892,9 @@ p {
   height: 600px;
 }
  /* Aside */
+  aside {
+  padding: 30px 20px 100px 5px;
+ }
  aside .content-wrapper {
   margin: 50px 0;
   display: flex;
