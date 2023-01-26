@@ -86,6 +86,49 @@ textarea {
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
+/* ==========================================================================
+trying columns
+========================================================================== */
+
+[class*="element"] {
+  box-sizing: border-box;
+  width: 100%;
+}
+.element-1 {
+  width: 90%;
+  padding: 2em;
+}
+.element-2 {
+  width: 90%;
+  padding: 2em;
+}
+.element-3 {
+  width: 90%;
+  padding: 2em;
+}
+.element-4 {
+  width: 90%;
+  padding: 2em;
+}
+.element-5 {
+  width: 90%;
+  padding: 2em;
+}
+.element-6 {
+  width: 90%;
+  padding: 2em;
+}
+.logo {
+  padding: 1em;
+  width: 100%;
+}
+.header-divider {
+  width: 100%;
+  padding: 0;
+}
+/* ==========================================================================
+trying columns
+========================================================================== */
 
 /* header and footer styles*/
 
@@ -126,12 +169,8 @@ ul a {
 }
 
 footer {
-<<<<<<< HEAD
   justify-content: center;
   flex-direction: row;
-=======
-  flex: row nowrap;
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 
 footer h4 {
@@ -230,7 +269,6 @@ ABOUT PAGE---------------------*/
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-<<<<<<< HEAD
 
 }
 
@@ -240,10 +278,6 @@ ABOUT PAGE---------------------*/
   padding: 10px 0 10px 0;
 }
 .container {
-=======
-}
-.contact-section {
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,11 +287,7 @@ ABOUT PAGE---------------------*/
 /*-------------
  background
  ----------------------------------*/
-<<<<<<< HEAD
 .mission, .container {
-=======
-.mission, .contact-section {
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   background: #527158;
 }
 
@@ -306,30 +336,18 @@ WIDTHS and padding
 .content-wrapper {
   width: 90%;
 }
-<<<<<<< HEAD
 header .content-wrapper {
   flex-flow: column;
 }
 .header-divider {
   border-top: 1px solid #dee0e9;
-=======
-.header-divider {
-  width: 100%;
-  border-top: 1px solid #dee0e9;
-}
-header figure {
-  padding: 15px 0 10px 0;
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 
 .nav-list {
   flex-basis: 60%;
   margin: 0;
   padding: 20px 0 15px 0;
-<<<<<<< HEAD
   gap: 2em;
-=======
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 footer .content-wrapper {
   width: 55%;
@@ -342,19 +360,12 @@ footer .content-wrapper {
   background-color: darkgreen;
   border-radius: 50%;
 }
-<<<<<<< HEAD
 .copyright {
   width: 100%;
   text-align: center;
 }
 /* main */
 .hero-area {
-=======
-
-/* main */
-.hero-area {
-  width: 90%;
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   padding: 50px 0 50px 0;
 }
 /* Aside */
@@ -368,21 +379,6 @@ input {
   width: 90%;
 }
 
-<<<<<<< HEAD
-=======
-/*features*/
-.features {
-  padding: 50px 5px 50px 0;
-}
-.features h2 {
-  padding-left: 0;
-}
-.features-item-description {
-  width: 70%;
-  margin-left: 50px;
-  text-align: center;
-}
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 /*reviews*/
 .reviews {
   padding: 20px 10px 20px 0;
@@ -403,22 +399,15 @@ header {
 a {
   text-decoration: none;
   color: #dee0e9;
-<<<<<<< HEAD
 }
 a:hover{
   color: yellow;
-=======
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 
 .nav-list li {
   text-transform: uppercase;
 }
-<<<<<<< HEAD
 footer {
-=======
-.footer-content {
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   background-color: #202322;
 }
 /*hero-area */
@@ -433,33 +422,11 @@ footer {
 /*aside */
 aside {
   background-color: #527158;
-<<<<<<< HEAD
 }
 /*features*/
 .features {
   background-image: url("../../unplugged-design-docs/unplugged-retreat-features.jpg");
   background-position: center;
-=======
-}
-/*features*/
-.features {
-  background-image: url("../../unplugged-design-docs/unplugged-retreat-features.jpg");
-  background-position: center;
-}
-/*reviews*/
-.reviews {
-  background-color: #527158;
-}
-
-
-/* ==========================================================================
-Tablet CSS styles
-========================================================================== */
-
-
-@media only screen and (min-width: 768px) {
-
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 /*reviews*/
 .reviews {
@@ -552,6 +519,53 @@ Tablet CSS styles
 @media only screen and (min-width: 768px) {
   /* ==========================================================================
 Tablet CSS styles
+========================================================================== */
+/* ==========================================================================
+trying columns
+========================================================================== */
+
+
+
+[class*="element"] {
+  box-sizing: border-box;
+  flex-flow: row wrap;
+}
+.element-1 {
+  width: 45%;
+  padding: 1.5em;
+}
+.element-2 {
+  width: 45%;
+  padding: 1.5em;
+}
+.element-3 {
+  width: 45%;
+  padding: 1.5em;
+}
+.element-4 {
+  width: 45%;
+  padding: 1.5em;
+}
+.element-5 {
+  width: 45%;
+  padding: 1.5em;
+}
+.element-6 {
+  width: 45%;
+  padding: 1.5em;
+}
+
+nav {
+  width: 100%;
+}
+.nav-logo {
+  width: 20%;
+}
+.nav-list {
+  width: 80%;
+}
+/* ==========================================================================
+trying columns
 ========================================================================== */
 .content-wrapper {
   max-width: 640px;
@@ -743,6 +757,41 @@ FAQ PAGE
 @media only screen and (min-width: 1200px) {
 /* ==========================================================================
   Desktop CSS Styles
+========================================================================== */
+/* ==========================================================================
+trying columns
+========================================================================== */
+
+[class*="element"] {
+  box-sizing: border-box;
+  flex-flow: row wrap;
+}
+.element-1 {
+  width: 30%;
+  padding: 1.5em;
+}
+.element-2 {
+  width: 30%;
+  padding: 1.5em;
+}
+.element-3 {
+  width: 30%;
+  padding: 1.5em;
+}
+.element-4 {
+  width: 30%;
+  padding: 1.5em;
+}
+.element-5 {
+  width: 30%;
+  padding: 2.5em;
+}
+.element-6 {
+  width: 30%;
+  padding: 3.5em;
+}
+/* ==========================================================================
+trying columns
 ========================================================================== */
 .content-wrapper {
   max-width: 960px;
