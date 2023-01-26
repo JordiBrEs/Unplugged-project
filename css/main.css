@@ -243,6 +243,32 @@ address {
   font-style: normal;
 }
 /*flexstyles */
+/*HOME PAGE*/
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 .hero-area {
   display: flex;
   justify-content: center;
@@ -697,7 +723,7 @@ address {
  .reviews article {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
  }
  
  .reviews article div {
@@ -942,7 +968,7 @@ p {
  .reviews article {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
  }
  
  .reviews article div {
