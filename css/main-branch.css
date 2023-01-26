@@ -86,61 +86,7 @@ textarea {
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
-/* General Styles */
- 
-html {
-	font-size: 16px;
-}
- 
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  color: #e2e3ed;
-}
- 
-ul, 
-ol {
- 
-}
- 
-a {
-	
-}
- 
-h2 {
-  font-family: 'Poppins', sans-serif;
-}
- 
-h3, 
-h4 {
-  font-family: 'Poppins', sans-serif;
-}
- 
-p {
-	
-}
- 
-img {
- height: 200px;
- padding: 0 5em 0 0;
-}
- 
-figure {
- 
-}
- 
-address {
-  line-height: 30px;
- 
-}
- 
-.content-wrapper {
- 
-}
-.features-items {
-  line-height: 1.5rem;
-}
+
 /* header and footer styles*/
 
 header, 
@@ -198,7 +144,7 @@ footer h4 {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   gap: 2.5em;
@@ -214,35 +160,7 @@ footer .copyright {
 }
 
 /*--------------------Mobile------------------------------*/
-/*-style------------------------------*/
-h1 {
-  line-height: 43px;
-  font-weight: 500;
-  font-size: 36px;
-}
-h2 {
-  font-weight: 500;
-  font-size: 30px;
-}
-h3, h4 {
-  font-weight: 500;
-  font-size: 18px;
-}
-p {
-  font-size: 14px;
-  line-height: 18px;
-}
-.nav {
-  font-size: 18px;
-  font-weight: bold;
-}
-.icon {
 
-}
-address {
-  font-style: normal;
-}
-/*flexstyles */
 .hero-area {
   display: flex;
   justify-content: center;
@@ -390,15 +308,14 @@ header .content-wrapper {
 }
 footer .content-wrapper {
   width: 55%;
-  padding: 20px 0;
+  padding: 55px 0;
 }
 
 .social-media {
-  width: 21px;
-  height: 21px;
+  width: 40px;
+  height: 40px;
   background-color: darkgreen;
   border-radius: 50%;
-  padding:0;
 }
 .copyright {
   width: 100%;
@@ -560,52 +477,6 @@ aside {
   /* ==========================================================================
 Tablet CSS styles
 ========================================================================== */
-/*-style------------------------------*/
-h1 {
-  line-height: 48px;
-  font-size: 48px;
-}
-h2 {
-  line-height: 48px;
-  font-size: 36px;
-}
-h3 {
-  font-size: 24px;
-  line-height: 30px;
-}
-h4 {
-  font-size: 24px;
-}
-p {
-  font-size: 18px;
-  line-height: 24px;
-}
-footer p {
-  font-size: 18px;
-  line-height: 18px;
-}
-.nav {
-  font-size: 18px;
-  font-weight: bold;
-}
-.icon {
-
-}
-address {
-  font-style: normal;
-}
-
-
-/*FAQ*/
-.faq h4 {
-  line-height: 17.75px;
-  font-size: 14px;
-}
-.faq p {
-  line-height: 17.75px;
-  font-size: 14px;
-}
-/*tablet specifications*/
 .content-wrapper {
   max-width: 640px;
 }
@@ -710,14 +581,14 @@ address {
  
  .footer-content {
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
  }
 
  footer .contact {
   display: flex;
   width: 40%;
-  margin-bottom: 0;
+     margin-bottom: 0;
  }
 .social {
   width: 40%;
@@ -797,62 +668,6 @@ FAQ PAGE
 /* ==========================================================================
   Desktop CSS Styles
 ========================================================================== */
-/*-style------------------------------*/
-h1 {
-  line-height: 48px;
-  font-size: 60px;
-}
-h2 {
-  line-height: 48px;
-  font-size: 36px;
-}
-h3 {
-  font-size: 30px;
-  line-height: 30px;
-}
-h4 {
-  font-size: 30px;
-}
-p {
-  font-size: 18px;
-  line-height: 24px;
-}
-footer p {
-  font-size: 18px;
-  line-height: 18px;
-}
-.nav {
-  font-size: 18px;
-  font-weight: bold;
-}
-.icon {
-
-}
-footer address p{
-  font-style: normal;
-  line-height: 30px;
-}
-p {
-  font-size: 18px;
-  line-height: 24px;
-}
-/*FAQ*/
-.faq h2 {
-  font-size: 48px;
-}
-.mission h2 {
-  font-size: 48px;
-}
-
-.faq h4 {
-  line-height: 18px;
-  font-size: 18px;
-}
-.faq p {
-  line-height: 17.75px;
-  font-size: 14px;
-}
-/*table specifications*/
 .content-wrapper {
   max-width: 960px;
 }
@@ -952,7 +767,7 @@ p {
  
  .footer-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   gap: 30em;
  }
@@ -960,8 +775,7 @@ p {
  footer .contact {
   display: flex;
   width: 20%;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0;
  }
 section.social {
   width: 100%;
