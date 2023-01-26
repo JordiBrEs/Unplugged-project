@@ -86,7 +86,61 @@ textarea {
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
-
+/* General Styles */
+ 
+html {
+	font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #e2e3ed;
+}
+ 
+ul, 
+ol {
+ 
+}
+ 
+a {
+	
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+ 
+p {
+	
+}
+ 
+img {
+ height: 200px;
+ padding: 0 5em 0 0;
+}
+ 
+figure {
+ 
+}
+ 
+address {
+  line-height: 30px;
+ 
+}
+ 
+.content-wrapper {
+ 
+}
+.features-items {
+  line-height: 1.5rem;
+}
 /* header and footer styles*/
 
 header, 
@@ -126,12 +180,8 @@ ul a {
 }
 
 footer {
-<<<<<<< HEAD
   justify-content: center;
   flex-direction: row;
-=======
-  flex: row nowrap;
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 
 footer h4 {
@@ -164,7 +214,35 @@ footer .copyright {
 }
 
 /*--------------------Mobile------------------------------*/
+/*-style------------------------------*/
+h1 {
+  line-height: 43px;
+  font-weight: 500;
+  font-size: 36px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+h3, h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
+.nav {
+  font-size: 18px;
+  font-weight: bold;
+}
+.icon {
 
+}
+address {
+  font-style: normal;
+}
+/*flexstyles */
 .hero-area {
   display: flex;
   justify-content: center;
@@ -230,7 +308,6 @@ ABOUT PAGE---------------------*/
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-<<<<<<< HEAD
 
 }
 
@@ -240,10 +317,6 @@ ABOUT PAGE---------------------*/
   padding: 10px 0 10px 0;
 }
 .container {
-=======
-}
-.contact-section {
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,11 +326,7 @@ ABOUT PAGE---------------------*/
 /*-------------
  background
  ----------------------------------*/
-<<<<<<< HEAD
 .mission, .container {
-=======
-.mission, .contact-section {
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   background: #527158;
 }
 
@@ -306,55 +375,37 @@ WIDTHS and padding
 .content-wrapper {
   width: 90%;
 }
-<<<<<<< HEAD
 header .content-wrapper {
   flex-flow: column;
 }
 .header-divider {
   border-top: 1px solid #dee0e9;
-=======
-.header-divider {
-  width: 100%;
-  border-top: 1px solid #dee0e9;
-}
-header figure {
-  padding: 15px 0 10px 0;
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 
 .nav-list {
   flex-basis: 60%;
   margin: 0;
   padding: 20px 0 15px 0;
-<<<<<<< HEAD
   gap: 2em;
-=======
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 footer .content-wrapper {
   width: 55%;
-  padding: 55px 0;
+  padding: 20px 0;
 }
 
 .social-media {
-  width: 40px;
-  height: 40px;
+  width: 21px;
+  height: 21px;
   background-color: darkgreen;
   border-radius: 50%;
+  padding:0;
 }
-<<<<<<< HEAD
 .copyright {
   width: 100%;
   text-align: center;
 }
 /* main */
 .hero-area {
-=======
-
-/* main */
-.hero-area {
-  width: 90%;
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   padding: 50px 0 50px 0;
 }
 /* Aside */
@@ -368,21 +419,6 @@ input {
   width: 90%;
 }
 
-<<<<<<< HEAD
-=======
-/*features*/
-.features {
-  padding: 50px 5px 50px 0;
-}
-.features h2 {
-  padding-left: 0;
-}
-.features-item-description {
-  width: 70%;
-  margin-left: 50px;
-  text-align: center;
-}
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 /*reviews*/
 .reviews {
   padding: 20px 10px 20px 0;
@@ -403,22 +439,15 @@ header {
 a {
   text-decoration: none;
   color: #dee0e9;
-<<<<<<< HEAD
 }
 a:hover{
   color: yellow;
-=======
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 
 .nav-list li {
   text-transform: uppercase;
 }
-<<<<<<< HEAD
 footer {
-=======
-.footer-content {
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
   background-color: #202322;
 }
 /*hero-area */
@@ -433,33 +462,11 @@ footer {
 /*aside */
 aside {
   background-color: #527158;
-<<<<<<< HEAD
 }
 /*features*/
 .features {
   background-image: url("../../unplugged-design-docs/unplugged-retreat-features.jpg");
   background-position: center;
-=======
-}
-/*features*/
-.features {
-  background-image: url("../../unplugged-design-docs/unplugged-retreat-features.jpg");
-  background-position: center;
-}
-/*reviews*/
-.reviews {
-  background-color: #527158;
-}
-
-
-/* ==========================================================================
-Tablet CSS styles
-========================================================================== */
-
-
-@media only screen and (min-width: 768px) {
-
->>>>>>> 794d41b2f9e5d92962f1c10193ca9ac12c4dc4c5
 }
 /*reviews*/
 .reviews {
@@ -553,6 +560,52 @@ Tablet CSS styles
   /* ==========================================================================
 Tablet CSS styles
 ========================================================================== */
+/*-style------------------------------*/
+h1 {
+  line-height: 48px;
+  font-size: 48px;
+}
+h2 {
+  line-height: 48px;
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+footer p {
+  font-size: 18px;
+  line-height: 18px;
+}
+.nav {
+  font-size: 18px;
+  font-weight: bold;
+}
+.icon {
+
+}
+address {
+  font-style: normal;
+}
+
+
+/*FAQ*/
+.faq h4 {
+  line-height: 17.75px;
+  font-size: 14px;
+}
+.faq p {
+  line-height: 17.75px;
+  font-size: 14px;
+}
+/*tablet specifications*/
 .content-wrapper {
   max-width: 640px;
 }
@@ -664,7 +717,7 @@ align-items: center;
  footer .contact {
   display: flex;
   width: 40%;
-     margin-bottom: 0;
+  margin-bottom: 0;
  }
 .social {
   width: 40%;
@@ -744,6 +797,62 @@ FAQ PAGE
 /* ==========================================================================
   Desktop CSS Styles
 ========================================================================== */
+/*-style------------------------------*/
+h1 {
+  line-height: 48px;
+  font-size: 60px;
+}
+h2 {
+  line-height: 48px;
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 30px;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+footer p {
+  font-size: 18px;
+  line-height: 18px;
+}
+.nav {
+  font-size: 18px;
+  font-weight: bold;
+}
+.icon {
+
+}
+footer address p{
+  font-style: normal;
+  line-height: 30px;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+/*FAQ*/
+.faq h2 {
+  font-size: 48px;
+}
+.mission h2 {
+  font-size: 48px;
+}
+
+.faq h4 {
+  line-height: 18px;
+  font-size: 18px;
+}
+.faq p {
+  line-height: 17.75px;
+  font-size: 14px;
+}
+/*table specifications*/
 .content-wrapper {
   max-width: 960px;
 }
@@ -851,7 +960,8 @@ FAQ PAGE
  footer .contact {
   display: flex;
   width: 20%;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
  }
 section.social {
   width: 100%;
