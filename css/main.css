@@ -353,7 +353,20 @@ ABOUT PAGE---------------------*/
   flex-flow: row wrap;
 
 }
-
+.map {
+  position: relative;
+  padding-bottom: 125%;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.map iframe {
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
 .mission-content p{
   display: flex;
   width: 100%;
