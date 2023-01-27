@@ -182,10 +182,11 @@ footer {
   flex-direction: row;
 }
 
+
 footer h4 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .contact h4 {
   width: 100%;
@@ -206,12 +207,20 @@ footer .social-icons {
 footer .social-icons p {
   display: flex;
   align-items: center;
-  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #527158;
+ width: 40px;
+ height: 40px;
+  }
+  
 }
 footer .copyright {
   margin: 20px 0;
 }
-
+footer .social-icons {
+  height: 3em;
+}
 /*--------------------Mobile------------------------------*/
 /*-style------------------------------*/
 h1 {
@@ -320,6 +329,8 @@ article {
 	font-size: 3.7em;
     margin-bottom: 40px;
     color: yellow;
+    justify-content: center;
+    display: flex;
 }
 /*reviews */
 
@@ -645,13 +656,12 @@ p {
 footer .social-icons {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-flow: row wrap;
   gap: 2.5em;
   width: 100%;
 }
-footer .social-1 {
-  width: 30%;
+footer i {
+  font-size: 1.5em;
 }
 footer p {
   font-size: 18px;
@@ -675,9 +685,12 @@ header figure {
   align-items: center;
   flex-flow: row wrap;
 }
-address {
+address a {
   font-style: normal;
+  line-height: 35px;
+  
 }
+
 
 
 /*FAQ*/
@@ -807,7 +820,7 @@ address {
  .footer-content {
 display: flex;
 justify-content: space-around;
-align-items: center;
+align-items: flex-start;
  }
 
  footer .contact {
@@ -816,10 +829,14 @@ align-items: center;
   margin-bottom: 0;
  }
 .social {
-  width: 40%;
+  width: 30%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: 0;
+ }
+ .social h4 {
+  margin-top: 0;
  }
 
  footer .copyright {
@@ -1066,7 +1083,7 @@ p {
  .footer-content {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   gap: 30em;
  }
 
