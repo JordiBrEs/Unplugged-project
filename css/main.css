@@ -1084,7 +1084,7 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  gap: 30em;
+  
  }
 
  footer .contact {
