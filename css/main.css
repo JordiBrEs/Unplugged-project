@@ -525,7 +525,7 @@ footer {
 }
 /*hero-area */
 .hero-area {
-  background-image: url("../../unplugged-design-docs/unplugged-retreat.jpg");
+  background-image: url("../img/hero-image.jpg");
   background-size: cover;
   background-position: center;
   height: auto;
@@ -537,7 +537,7 @@ aside {
 }
 /*features*/
 .features {
-  background-image: url("../../unplugged-design-docs/unplugged-retreat-features.jpg");
+  background-image: url("../img/aside.jpg");
   background-position: center;
   height: auto;
 }
