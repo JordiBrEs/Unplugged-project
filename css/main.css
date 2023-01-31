@@ -252,6 +252,9 @@ address {
 }
 /*flexstyles */
 /*HOME PAGE*/
+header {
+  padding-bottom: 10px;
+}
 header img {
   width: 100%;
 }
@@ -328,7 +331,6 @@ article {
 .features i {
 	font-size: 3.7em;
     margin-bottom: 40px;
-    color: yellow;
     justify-content: center;
     display: flex;
 }
@@ -460,6 +462,7 @@ header .content-wrapper {
 .nav-list {
   flex-basis: 60%;
   margin: 0;
+  padding-top: 10px;
 }
 footer .content-wrapper {
   width: 55%;
