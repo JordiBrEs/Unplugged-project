@@ -252,6 +252,9 @@ address {
 }
 /*flexstyles */
 /*HOME PAGE*/
+header {
+  padding-bottom: 10px;
+}
 header img {
   width: 100%;
 }
@@ -328,7 +331,6 @@ article {
 .features i {
 	font-size: 3.7em;
     margin-bottom: 40px;
-    color: yellow;
     justify-content: center;
     display: flex;
 }
@@ -460,6 +462,7 @@ header .content-wrapper {
 .nav-list {
   flex-basis: 60%;
   margin: 0;
+  padding-top: 10px;
 }
 footer .content-wrapper {
   width: 55%;
@@ -526,6 +529,7 @@ footer {
 /*hero-area */
 .hero-area {
   background-image: url("../img/hero-image.jpg");
+  background-image: url("../img/hero-image.jpg");
   background-size: cover;
   background-position: center;
   height: auto;
@@ -537,6 +541,7 @@ aside {
 }
 /*features*/
 .features {
+  background-image: url("../img/aside.jpg");
   background-image: url("../img/aside.jpg");
   background-position: center;
   height: auto;
