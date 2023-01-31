@@ -542,7 +542,6 @@ aside {
 /*features*/
 .features {
   background-image: url("../img/aside.jpg");
-  background-image: url("../img/aside.jpg");
   background-position: center;
   height: auto;
 }
@@ -664,6 +663,9 @@ footer .social-icons {
   flex-flow: row wrap;
   gap: 2.5em;
   width: 100%;
+}
+#social {
+  width: 30%;
 }
 footer i {
   font-size: 1.5em;
